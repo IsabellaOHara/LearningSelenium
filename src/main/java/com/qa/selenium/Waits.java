@@ -13,7 +13,7 @@ public class Waits {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\amit.kumar\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://webdriveruniversity.com/Popup-Alerts/index.html");
